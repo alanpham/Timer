@@ -13,7 +13,7 @@ struct ContentView: View {
   var body: some View {
     VStack {
       
-      Text(String(format: "%.1f", stopWatchManager.secondsElapsed))
+      Text(String(format: "%.2f", stopWatchManager.secondsElapsed))
         .font(.custom("Avenir", size: 40))
         .padding(.top, 200)
         .padding(.bottom, 100)
@@ -40,6 +40,14 @@ struct ContentView: View {
       }
       
       Spacer()
+      //TabView {
+      //  Text("Home Tab")
+      //    .font(.system(size: 30, weight: .bold, design: .rounded))
+      //    .tabItem {
+      //        Image(systemName: "house.fill")
+      //        Text("Home")
+      //    }
+      //}
     }
   }
 }

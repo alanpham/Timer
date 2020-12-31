@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 enum stopWatchMode {
     case running
@@ -16,13 +17,15 @@ enum stopWatchMode {
 class StopWatchManager: ObservableObject {
   @Published var secondsElapsed = 0.0
   @Published var mode: stopWatchMode = .stopped
+  let systemSoundID: SystemSoundID = 1016 // tweet_sent.caf SMSSent
   
   var timer = Timer()
   
   func start() {
     mode = .running
-    timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
-      self.secondsElapsed += 0.1
+    AudioServicesPlaySystemSound (systemSoundID)
+    timer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true) { timer in
+      self.secondsElapsed += 0.01
     }
   }
   

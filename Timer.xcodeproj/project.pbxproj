@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		790DA0692561AD6600ECC30A /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790DA0682561AD6600ECC30A /* StopWatchManager.swift */; };
+		7974A178259DA32F000DE79E /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974A177259DA32F000DE79E /* AppView.swift */; };
+		7974A17D259DA435000DE79E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974A17C259DA435000DE79E /* SettingsView.swift */; };
 		79966A5F255E2B0E0062935A /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79966A5E255E2B0E0062935A /* TimerApp.swift */; };
 		79966A61255E2B0E0062935A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79966A60255E2B0E0062935A /* ContentView.swift */; };
 		79966A63255E2B0F0062935A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79966A62255E2B0F0062935A /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		790DA0682561AD6600ECC30A /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
+		7974A177259DA32F000DE79E /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		7974A17C259DA435000DE79E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		79966A5B255E2B0E0062935A /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79966A5E255E2B0E0062935A /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
 		79966A60255E2B0E0062935A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				79966A5E255E2B0E0062935A /* TimerApp.swift */,
 				79966A60255E2B0E0062935A /* ContentView.swift */,
+				7974A177259DA32F000DE79E /* AppView.swift */,
+				7974A17C259DA435000DE79E /* SettingsView.swift */,
 				790DA0682561AD6600ECC30A /* StopWatchManager.swift */,
 				79966A62255E2B0F0062935A /* Assets.xcassets */,
 				79966A67255E2B0F0062935A /* Info.plist */,
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7974A17D259DA435000DE79E /* SettingsView.swift in Sources */,
+				7974A178259DA32F000DE79E /* AppView.swift in Sources */,
 				79966A61255E2B0E0062935A /* ContentView.swift in Sources */,
 				790DA0692561AD6600ECC30A /* StopWatchManager.swift in Sources */,
 				79966A5F255E2B0E0062935A /* TimerApp.swift in Sources */,
